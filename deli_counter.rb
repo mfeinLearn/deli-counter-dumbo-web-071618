@@ -17,7 +17,7 @@ def line(katz_deli)
     line_of_people = "The line is currently:"
 
     katz_deli.each_with_index do |value, index|
-    line_of_people += "#{index.to_i+1}. #{value}"
+    line_of_people += " #{index.to_i+1}. #{value}"
   end
   puts "#{line_of_people}"
 end
