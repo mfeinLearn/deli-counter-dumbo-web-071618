@@ -19,7 +19,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |value, index|
     line_of_people += " #{index.to_i+1}. #{value}"
   end
-  puts "#{line_of_people}"
-end
+    puts "#{line_of_people}"
+  end
 
 end
